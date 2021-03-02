@@ -4,5 +4,5 @@ class MyRouter {
   static final Map<String, WidgetBuilder> _routes = {
     '/': (_) => HomePage()
   };
-  static Map<String, WidgetBuilder> get routes => _routes;
+  static Map<String, WidgetBuilder> get routes => _routes;   
 }
