@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(
-        backgroundColor: Colores.colorMorado,
+        backgroundColor: Color(0xffBD7DFF),
         key: _bottomNavigationKey,
         items: <Widget>[
           Icon(Icons.home, size: 30),
@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         },
       ),
       body: Container(
-        color: Colores.colorMorado,
+        color: Color(0xff7D00FF),
         child: Center(
           child: choosePage(),
         ),
