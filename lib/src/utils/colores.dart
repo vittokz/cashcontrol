@@ -8,4 +8,12 @@ class Colores {
       100: const Color(0xff970cf7b0),
     },
   );
+
+  static const colorAzul = const MaterialColor(
+    0xff2406D6,
+    const <int, Color>{
+      50: const Color(0xff2406D6),
+      100: const Color(0xff2406D6),
+    },
+  );
 }

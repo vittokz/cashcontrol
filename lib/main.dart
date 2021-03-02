@@ -1,4 +1,4 @@
-import 'package:cashcontrol/src/rutas/rutas.dart';
+import 'package:cashcontrol/src/myrouter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
-      routes: rutasGenerales(),
+      routes: MyRouter.routes,
     );
   }
 }

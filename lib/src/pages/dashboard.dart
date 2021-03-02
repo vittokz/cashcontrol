@@ -1,3 +1,4 @@
+import 'package:cashcontrol/src/utils/colores.dart';
 import 'package:flutter/material.dart';
 
 class DashboardPage extends StatefulWidget {
@@ -12,13 +13,33 @@ class _DashboardPageState extends State<DashboardPage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        appBar: AppBar(
-          leading: IconButton(
-            onPressed: () {},
-            icon: Icon(Icons.menu),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              child: Column(
+                children: [
+                  _bannerMenu(),
+                ],
+              ),
+            ),
           ),
         ),
       ),
     );
+  }
+
+  Widget _bannerMenu() {
+    return Container(
+      child: Row(
+        children: [
+          _menuItem(),
+        ],
+      ),
+    );
+  }
+
+  Widget _menuItem() {
+    return Container();
   }
 }
